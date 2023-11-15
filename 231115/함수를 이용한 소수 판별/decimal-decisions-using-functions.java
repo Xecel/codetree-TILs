@@ -11,7 +11,7 @@ public class Main {
     public static void eratos(int st, int ed) {
         boolean[] isPrime = new boolean[ed + 1];
 
-        for (int i = 1; i <= ed; i++) {
+        for (int i = 2; i <= ed; i++) {
             isPrime[i] = true;
         }
 
