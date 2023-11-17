@@ -12,7 +12,7 @@ public class Main {
         if (a < b) {
             System.out.println((a + 10) + " " + (b * 2));
         } else {
-            System.out.println((a * 10) + " " + (b + 10));
+            System.out.println((a * 2) + " " + (b + 10));
         }
     }
 
