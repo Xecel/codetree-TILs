@@ -4,11 +4,7 @@ public class Main {
      public static void main(String[] args) {
 
         int N = scanInt();
-        if (N == 1) {
-            System.out.println("1 1");
-        } else {
             recurvePrint(N, N, true);
-        }
     }
 
     public static void recurvePrint(int N, int fin, boolean toggle) {
